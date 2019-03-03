@@ -1,0 +1,34 @@
+Socket.io란
+
+node.js의 모듈로써 node에서만 사용가능하다.
+실시간 웹 구현이 가능하다.
+
+정의 : 브라우저와 서버간 이벤트 기반의 통신 (실시간, 양방향성)
+
+특징
+    1.신뢰성
+        -proxy, load balancer
+        -firewall, Antivirus software
+        위 항목이 Connection을 방해하더라도 Engine.io가 connection을 보호하므로 신뢰할 수 있다.
+    
+    2.Auto reconnection support
+        connection이 끊어지더라도 지속적으로 재연결 한다.
+    
+    3.disconnection 탐지
+        connection을 지속적으로 탐지하여 끊어졌는지 확인
+    
+    4.Binary support
+        어떤 직렬화 데이터 구조이건 emit할 수 있다.
+
+    5.multiplexing support
+        분리된 커뮤니케이션채널로써의 namespace를 만들 수 있다.
+
+    5.room support
+        ->이어지는 관계로 namespace를 이용하여 임의의 채널을 정의, socket을 join,leave할 수 있다.
+
+    
+**참고
+load balancer : 하나의 서비스가 트레픽이 많은 경우 여러대의 서버가 분산처리하여 부하,속도저하 등을 해결하는 방법.
+proxy : 클라이언트와 서버사이에서 대리통신을 수행. (proxy는 '대리'라는 의미)
+    - 보안성이 향상되고, 프록시 서버에 저장된 캐시 사용등으로 트레픽을 줄일 수 있다.
+    
