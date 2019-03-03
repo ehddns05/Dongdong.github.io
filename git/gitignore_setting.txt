@@ -1,0 +1,14 @@
+.gitignore란
+git 버전관리 제외대상 파일 목록을 지정한다.
+
+- 대부분의 언어에 대해 제외 대상 템플릿이 만들어져 있다.
+https://github.com/github/gitignore
+
+-기본적으로 .gitignore파일을 push하면 되지만 기존에 포함된 파일들은 수동으로 삭제해야 한다.
+git rm -r --chached
+git add 
+git commit -m ''
+이 과정을 통해 이미 github에 올라간 파일들을 삭제한후 다시 commit한다.
+
+**자신에게 맞는 gitignore파일을 만들어 주는 사이트도 존재한다.
+https://www.gitignore.io/
