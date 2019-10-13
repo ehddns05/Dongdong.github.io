@@ -1,8 +1,5 @@
 ---
-layout: post
-title: "First Post Title"
-subtitle: "This is the post subtitle."
-date: 2019-01-19 HH:MM:SS
-background: '/PATH_TO_IMAGE'
+title: "Welcome to Jekyll!"
+date: 2019-10-14 00:00:00 -0400
+categories: jekyll update
 ---
-Hello
