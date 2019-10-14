@@ -9,14 +9,14 @@
     <title>{{ site.name }}{% if page.title %} | {{ page.title }} {% endif %}</title>
     <meta name="theme-color" content="#222222"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="{{ '/assets/js/jquery.min.js' }}"></script>
-    <script src="{{ '/assets/js/popper.min.js' }}"></script>
-    <script src="{{ '/assets/js/bootstrap4.min.js' }}"></script>
+    <script src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/popper.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/bootstrap4.min.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/header.js' | relative_url }}"></script>
-    <script src="{{ '/assets/css/svg-with-js/js/fontawesome-all.js' }}"></script>
-    <link href="{{ '/assets/css/bootstrap4.min.css' }}" rel="stylesheet">
-    <link href="{{ '/assets/css/theme.css' }}" rel="stylesheet">
-    <link href="{{ '/assets/css/syntax.css' }}" rel="stylesheet">
+    <script src="{{ '/assets/css/svg-with-js/js/fontawesome-all.js' | relative_url }}"></script>
+    <link href="{{ '/assets/css/bootstrap4.min.css' | relative_url }}" rel="stylesheet">
+    <link href="{{ '/assets/css/theme.css' | relative_url }}" rel="stylesheet">
+    <link href="{{ '/assets/css/syntax.css' | relative_url }}" rel="stylesheet">
  </head>
 
 <body>
